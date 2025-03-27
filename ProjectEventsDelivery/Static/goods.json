@@ -1,0 +1,103 @@
+[
+    {
+      "name": "Pizza",
+      "products": [
+        { "name": "Cheese Pizza", "price": 10.50 },
+        { "name": "Pepperoni Pizza", "price": 12.00 },
+        { "name": "Veggie Pizza", "price": 11.00 },
+        { "name": "BBQ Chicken Pizza", "price": 13.50 },
+        { "name": "Margarita Pizza", "price": 9.00 }
+      ]
+    },
+    {
+      "name": "Pasta",
+      "products": [
+        { "name": "Spaghetti Bolognese", "price": 8.50 },
+        { "name": "Fettuccine Alfredo", "price": 9.00 },
+        { "name": "Penne Arrabbiata", "price": 7.50 },
+        { "name": "Lasagna", "price": 11.00 },
+        { "name": "Mac and Cheese", "price": 6.00 }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "products": [
+        { "name": "Coke", "price": 2.50 },
+        { "name": "Pepsi", "price": 2.50 },
+        { "name": "Sprite", "price": 2.00 },
+        { "name": "Water", "price": 1.00 },
+        { "name": "Orange Juice", "price": 3.00 }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "products": [
+        { "name": "Chocolate Cake", "price": 4.50 },
+        { "name": "Tiramisu", "price": 5.00 },
+        { "name": "Cheesecake", "price": 4.00 },
+        { "name": "Apple Pie", "price": 3.50 },
+        { "name": "Ice Cream", "price": 3.00 }
+      ]
+    },
+    {
+      "name": "Salads",
+      "products": [
+        { "name": "Caesar Salad", "price": 7.00 },
+        { "name": "Greek Salad", "price": 6.50 },
+        { "name": "Garden Salad", "price": 5.00 },
+        { "name": "Cobb Salad", "price": 8.00 },
+        { "name": "Caprese Salad", "price": 6.00 }
+      ]
+    },
+    {
+      "name": "Appetizers",
+      "products": [
+        { "name": "Garlic Bread", "price": 3.00 },
+        { "name": "Mozzarella Sticks", "price": 4.00 },
+        { "name": "Bruschetta", "price": 4.50 },
+        { "name": "Onion Rings", "price": 3.50 },
+        { "name": "Chicken Wings", "price": 5.00 }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "products": [
+        { "name": "Cheeseburger", "price": 8.50 },
+        { "name": "Veggie Burger", "price": 7.00 },
+        { "name": "Bacon Burger", "price": 9.00 },
+        { "name": "BBQ Burger", "price": 9.50 },
+        { "name": "Double Cheeseburger", "price": 10.00 }
+      ]
+    },
+    {
+      "name": "Sushi",
+      "products": [
+        { "name": "California Roll", "price": 7.00 },
+        { "name": "Spicy Tuna Roll", "price": 8.00 },
+        { "name": "Salmon Roll", "price": 8.50 },
+        { "name": "Dragon Roll", "price": 9.00 },
+        { "name": "Rainbow Roll", "price": 9.50 }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "products": [
+        { "name": "Chicken Sandwich", "price": 6.00 },
+        { "name": "Ham and Cheese Sandwich", "price": 5.50 },
+        { "name": "Turkey Sandwich", "price": 6.50 },
+        { "name": "Veggie Sandwich", "price": 5.00 },
+        { "name": "BLT Sandwich", "price": 6.00 }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "products": [
+        { "name": "Chicken Caesar Wrap", "price": 7.50 },
+        { "name": "Falafel Wrap", "price": 6.00 },
+        { "name": "Veggie Wrap", "price": 5.50 },
+        { "name": "BBQ Chicken Wrap", "price": 8.00 },
+        { "name": "Beef Wrap", "price": 7.00 }
+      ]
+    }
+  ]
+

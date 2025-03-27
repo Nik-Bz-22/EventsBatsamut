@@ -1,0 +1,65 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="ProjectEventsDelivery.MainWindow"
+        Title="Order Management"
+        Width="400" Height="600">
+    
+    <Grid>
+        <DockPanel LastChildFill="True">
+            
+            <StackPanel DockPanel.Dock="Top" Margin="5">
+                <TextBlock Text="Address delivery"/>
+                <TextBox Watermark="Address" x:Name="addressTextBox"/>
+            </StackPanel>
+            
+            <!-- Вибір категорії -->
+            <StackPanel DockPanel.Dock="Top" Margin="5">
+                <TextBlock Text="Choose a category:"/>
+                <ComboBox x:Name="categoryComboBox" SelectionChanged="CategoryComboBox_SelectionChanged"/>
+            </StackPanel>
+            
+            <!-- Вибір товарів -->
+            <StackPanel DockPanel.Dock="Top" Margin="5">
+                <TextBlock Text="Choose a product:"/>
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Height="150">
+                    <ListBox x:Name="productListBox" SelectionChanged="ProductListBox_SelectionChanged"/>
+                </ScrollViewer>
+            </StackPanel>
+
+            <!-- Кнопка додавання до замовлення -->
+            <Button Content="Add to Order" Click="AddToOrder_Click" Margin="5" DockPanel.Dock="Top"/>
+            
+            <!-- Вибрані товари -->
+            <StackPanel DockPanel.Dock="Top" Margin="5">
+                <TextBlock Text="Selected Products:"/>
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Height="150">
+                    <ListBox x:Name="orderListBox"/>
+                </ScrollViewer>
+            </StackPanel>
+            
+            <!-- Кнопка оформлення замовлення -->
+            <Button Content="Order" Click="MakeOrder" Margin="5" DockPanel.Dock="Bottom"/>
+        
+        </DockPanel>
+
+        <Border x:Name="confirmationOverlay"
+                Background="Green" 
+                Opacity="0" 
+                IsVisible="False"
+                ZIndex="100">
+            <Grid>
+                <TextBlock Text="✔" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Border>
+
+        <Border x:Name="errorOverlay"
+                Background="Red" 
+                Opacity="0" 
+                IsVisible="False"
+                ZIndex="101">
+            <Grid>
+                <TextBlock Text="✖" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
